@@ -1,0 +1,174 @@
+/*first-section-styling*/
+
+.under-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.under-header .latest p {
+     position: relative;
+     left : 20px;
+}
+
+.under-header .newest-popular p {
+    position: relative;
+    right : 25px;
+}
+
+.under-header .newest-popular p span{
+    color: blue;
+}
+
+.content-holder .part-one{
+    border-radius: 50px;
+    background-color: rgb(187, 173, 154);
+    border-top: 20px;
+    width: 90%;
+    height: 400px;
+    position: relative;
+    left: 60px;
+    top: 30px;
+    display: flex;
+}
+
+.content-holder .part-one .img img{
+        flex: 1;
+        height: 100%;
+        border-radius: 50px;
+}
+
+.content-holder .part-one .property-content{
+       flex: 1;
+       position: relative;
+       left:10rem;
+       top:4rem;
+}
+
+.content-holder .part-one .property-content button{
+    background-color: blue; 
+    color: rgb(251, 255, 255); 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    position: relative;
+    top : 30px;
+    right:2.5rem;
+}
+
+.content-holder .information-holder{
+    position: relative;
+    top : 40px;
+    bottom: 30px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    position: relative;
+    left : 10rem;
+}
+
+.content-holder .part-one .property-content .information-holder .bed{
+    position: relative;   
+    top: 40px;
+    right : 200px;
+    width: 250px;
+    background-color: aquamarine;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-left: solid aquamarine;
+}
+
+.content-holder .part-one .property-content .information-holder .bath{
+    border: solid white;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    position: relative;
+    top: 40px;   
+    right : 47px;
+    width: 250px;
+    height: 60px;
+    background-color: aquamarine;
+    border-top-right-radius: 10px;
+    
+}
+
+.content-holder .part-one .property-content .information-holder .bed-num{
+    border: solid white;
+    position: relative;   
+    right : 200px;
+    width: 252px; 
+    height: 60px; 
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    background-color: greenyellow;
+    border-bottom-left-radius: 10px;
+}
+.content-holder .part-one .property-content .information-holder .bath-num{
+    border: solid white;
+    position: relative;   
+    right : 47px;
+    width: 250px;
+    border-right: none;
+    border-bottom: none;
+    height: 60px;
+    background-color: greenyellow;
+    border-bottom-right-radius: 10px;
+}
+
+.content-holder .part-one .property-content .information-holder .bath p{
+              position: relative;
+              top: 15px;
+              bottom: 40px;
+              margin-bottom: 900px;
+}
+
+
+.content-holder .part-one .property-content .information-holder div p{
+             position: relative;
+             left: 5rem;
+             top : 20px;
+             color: rgb(5, 4, 4);
+             font-size: 20px;
+}
+
+.content-holder .part-one .property-content .information-holder .bed p{
+          position: relative;
+          top: 15px;
+}
+
+.content-holder .part-one .property-content .information-holder .bed-num p{
+    position: relative;
+    top: 15px;
+}
+
+.content-holder .part-one .property-content .information-holder .bath-num p{
+    position: relative;
+    top: 15px;
+}
+.content-holder .part-one .property-content h1{
+       position: relative;
+       right: 40px;
+       font-weight: 600;
+       letter-spacing: 3px;
+}
+
+#image-2{
+    width: 84%;
+}
+
+#image-3{
+    width: 112%;
+}
+
+.content-holder #second-content{
+    position: relative;
+    right: 60px;
+    left: -20px;
+}
+
+.content-holder #first-content{
+    position: relative;
+    left: 5.5rem;
+}

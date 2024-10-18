@@ -7,7 +7,7 @@
 	<meta name="description" content="Find the best places, restaurants, hotels, and more with List to Go. Your one-stop destination for exploring and discovering.">
     <title>ListoGo</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/blog.css">
+    <link rel="stylesheet" href="assets/css/log-in.css">
     <link rel="stylsheet" href="assets/css/normaliza.css">
 </head>
 <body>
@@ -22,47 +22,28 @@
             <ul>
                 <li><a class="navbar-link" href="home.html">Home</a></li>
                 <li><a class="navbar-link" href="properties.html">properties</a></li>
-                <li><a class="navbar-link" href="#">blog</a></li>
+                <li><a class="navbar-link" href="blog.html">blog</a></li>
                 <li><a class="navbar-link" href="contact.html">contact</a></li>
             </ul>
-            <a href="log-in.html" class="login-button">Log In</a>
         </nav>
     </div>
 </header>
 
-<section>
-    <div class="first-title">
-        <h2> NEWS & ARTICLES </h2>
-    </div>
-    <div class="second-title">
-        <h5>here where you can find newest information </h5>
-    </div>
-    <div class="content-container">
-        <div class="item">
-            <img src="assets/Images/blog pages/image-1.jpg" alt="image" id="unique-image">
-            <p id="paragraph-1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, Mollitia repudiandae autem corrupti, iusto doloremque illo corporis officia laudantium dolores itaque nulla obcaecati laboriosam facilis maiores nostrum at et!
-            </p>
-            <h6><a href="#" aria-label="link">READ MORE >></a></h6>
-        </div>
-        <div class="item">
-            <img src="assets/Images/blog pages/image-2.jpg" alt="image">
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur fuga natus vero voluptates, dolorem quis aliquam consequatur voluptate incidunt fugiat pariatur sint. Similique, veritatis cumque tempora suscipit nulla cupiditate adipisci.
-            </p>
-            <h6><a href="#" aria-label="link">READ MORE >></a></h6>
-        </div>
-        <div class="item">
-            <img src="assets/Images/blog pages/image-3.jpg" alt="image">
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam dolorum quia non nesciunt nisi autem eos distinctio? Autem doloribus odio quisquam et ullam. Id voluptate quisquam consequatur commodi aspernatur voluptates.
-            </p>
-            <h6><a href="#" aria-label="link">READ MORE >></a></h6>
-        </div>
-        <h3><a href="#" aria-label="link">OLD ENTITIES >> </a></h3>
+<section class="content-container">
+    <div class="container">
+        <h1>Login</h1>
+        <form action="#" method="post">
+            <label for="username">Username:</label>
+            <input type="text" placeholder="Enter your username" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Enter Your Password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="#">Sign up</a></p>
     </div>
 </section>
-
 
 <footer>
     <div class="footer-container">
@@ -124,7 +105,6 @@
         </div>
     </div>
    </footer>
-   
    </body>
    </html>
    
