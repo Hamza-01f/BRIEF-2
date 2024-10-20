@@ -8,15 +8,20 @@ section{
 
 .main-section{
     padding: 15px 40px 15px 80px;
-    background-color: rgb(231, 231, 223);
+    background-color :#b2d4f7;
     position: relative;
     right: 4rem;
+    top: 12rem;
+    left: 40px;
     border-radius: 8px;
+    width: 75%;
+    
 }
 
 .main-section h1{
     font-family: Verdana, Tahoma, sans-serif;
     letter-spacing: 4px;
+    padding-left: 15rem;
 }
 
 .form-group {
@@ -65,4 +70,8 @@ button:hover {
 .content-email-holder p{
     padding: 50px 0 0 200px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content-email-holder form{
+    padding-left: 130px;
 }

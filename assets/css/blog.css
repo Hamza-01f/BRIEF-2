@@ -1,5 +1,5 @@
 section{
-    margin: 10px 70px 70px;
+    margin: 15rem 70px 70px;
 }
 .first-title{
     position: relative;
@@ -13,12 +13,12 @@ section{
 .second-title{
     text-align: center;
     position: relative;
-    top:10px;
+    top:30px;
     letter-spacing: 3px;
-    font-size: 15px;
+    font-size: 25px;
 }
 
-.content-container{
+section .content-container{
     background-color: rgba(237, 218, 193, 0.811);
     display: grid;
     grid-template-columns: repeat(3,auto);
@@ -26,7 +26,10 @@ section{
     padding-left: 25px;
     border-radius: 12px;
     padding-top: 15px;
+    position: relative;
+    top: 70px;
 }
+
 
 .content-container .item img{
     height: 200px;
